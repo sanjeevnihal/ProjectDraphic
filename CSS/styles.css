@@ -1,0 +1,263 @@
+/* BODY SECTION */
+/* -------------------------------------------------------------------------------- */
+body {
+  background-color: #161616;
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px 20px;
+}
+
+h1, h3{
+  font-size: 52pt;
+  font-weight: bold;
+}
+
+p{
+  font-size: 21pt;
+  color: #C4C4C4;
+}
+
+.scroll-imageicon p{
+  font-size: 18pt;
+  color: #C4C4C4;
+  opacity: .5;
+}
+
+/* -------------------------------------------------------------------------------- */
+/* NAVBAR SECTION Start*/
+/* -------------------------------------------------------------------------------- */
+.navbar {
+  background-color: #161616;
+
+}
+
+.navbar-brand {
+  color: #60FFC6;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar-brand:hover{
+  color: #C4C4C4;
+  font-size: 2.1rem;
+}
+
+.collapse {
+  margin-left: 100px;
+}
+
+.nav-item {
+  margin: 20px;
+}
+
+.nav-link {
+  color: #C4C4C4;
+}
+
+.nav-link:hover {
+  color: #60FFC6;
+}
+
+.search-bar {
+  color: #60FFC6;
+  border: none;
+  outline-style: none;
+  background-color: #2C2C2C;
+  border-radius: 25px;
+  padding: 1rem;
+}
+
+.search-bar:focus{
+  background-color: #2C2C2C;
+  color: #60FFC6;
+}
+
+.input-group {
+  width: 30%;
+}
+
+.input-group-text {
+  font-size: 2rem;
+  border-radius: 25px;
+  background-color: #2C2C2C;
+  border: none;
+  padding-left: 20px;
+}
+
+.fa-search {
+  color: #60FFC6;
+  opacity: .2;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #60FFC6;
+  opacity: .2;
+}
+
+/* -------------------------------------------------------------------------------- */
+/* LANDING SECTION Start*/
+/* -------------------------------------------------------------------------------- */
+.carousel{
+  position: relative;
+  margin: 2%;
+}
+
+.carousel-inner{
+  border-radius: 30px;
+}
+
+.carousel-item {
+  height: 20%;
+  /*width: 90%;*/
+  /*margin: 5%;*/
+  background-color: #2C2C2C;
+  color: white;
+  /*border-radius: 30px;*/
+}
+
+.container {
+  padding: 2%;
+  margin: 2%;
+}
+
+
+.container-head, .container-subhead{
+  margin-bottom: 2%;
+}
+
+.container .btn-outline-light{
+  font-weight: bold;
+  font-size: 27pt;
+  border-radius: 30px;
+  padding: .5% 8%;
+  margin-top: 6%;
+  margin-right: 6%;
+}
+
+.container .btn-dark{
+  font-size: 27pt;
+  font-weight: bold;
+  border-radius: 30px;
+  background-color: #60FFC6;
+  color: #2C2C2C;
+  padding: .5% 4%;
+  margin-top: 6%;
+  margin-right: 6%;
+}
+
+.info-icon{
+  position: absolute;
+  bottom: 5.5rem;
+  font-size: 27pt;
+  color: #C4C4C4;
+  opacity: .5;
+  cursor: pointer;
+}
+
+.info-icon:hover{
+  color: #60FFC6;
+}
+
+/* .swap-text{
+  color: #60FFC6;
+} */
+
+/* Swap Animation Effect */
+
+.swap-text:before{
+  content: '';
+  animation: animate infinite 12s;
+  font-size: 72pt;
+  color: #60FFC6;
+  margin-left: 3%;
+}
+@keyframes animate {
+  0%{
+    content: 'Illustrations';
+  }
+  20%{
+    content: 'Animations';
+  }
+  40%{
+    content: 'Colors';
+  }
+  60%{
+    content: 'Code';
+  }
+  80%{
+    content: 'Music';
+  }
+  100%{
+    content: 'Art';
+  }
+}
+
+.sub-head-text{
+  color: #60FFC6;
+}
+
+.carousel-indicators .cara-indicators{
+  position: relative;
+  bottom: 500px;
+  left: 60%;
+  background-color: #C4C4C4;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 15px;
+  padding: 0;
+  margin-left: 3px;
+  cursor: pointer;
+  transition: opacity .6s ease;
+}
+
+.carousel-indicators .cara-indicators:hover {
+  background-color: #60FFC6;
+}
+
+/* Scroll Icon */
+
+.scroll-imageicon{
+  position: absolute;
+  bottom: .5%;
+  left: 50%;
+}
+
+.scroll-imageicon:hover{
+  cursor: pointer;
+  bottom: 1%;
+}
+
+
+/* -------------------------------------------------------------------------------- */
+/* DISPLAY SECTION STARTS*/
+/* -------------------------------------------------------------------------------- */
+
+.display-section{
+  margin-top: 20%;
+}
+
+.profile-image{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: #C4C4C4;
+
+}
+
+
+/* Display Section Right Column */
+
+.product-container{
+  height: 327px;
+  width: 236px;
+  background-color: #2C2C2C;
+  border-radius: 30px;
+}
+
+/* -------------------------------------------------------------------------------- */
+/* FEATURED SECTION */
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* FOOTER SECTION */
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
