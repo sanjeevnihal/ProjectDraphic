@@ -22,6 +22,13 @@ p{
   opacity: .5;
 }
 
+.left-container h1{
+  font-size: 42pt;
+  font-weight: bold;
+  margin-bottom: 5%;
+  color: #60FFC6;
+}
+
 /* -------------------------------------------------------------------------------- */
 /* NAVBAR SECTION Start*/
 /* -------------------------------------------------------------------------------- */
@@ -234,16 +241,60 @@ p{
 
 .display-section{
   margin-top: 20%;
+  padding: 2%;
+  margin-bottom: 5%;
 }
 
-.profile-image{
+.profile-image-container{
+  position: relative;
+  margin: 3% auto;
+}
+
+.profile-container{
   height: 70px;
   width: 70px;
   border-radius: 50%;
   background-color: #C4C4C4;
-
+  margin: 1%;
 }
 
+.arrow-icon{
+  color: #60FFC6;
+  font-size: 32pt;
+  transform: rotate(45deg);
+  padding: 2%;
+}
+
+.tabs-container{
+  margin-left: 1%;
+}
+
+.tag-tabs{
+  width: 200px;
+  height: 72px;
+  background-color: #60FFC6;
+  border-radius: 30px;
+  margin-top: 5%;
+  margin-right: 3%;
+  cursor: pointer;
+}
+
+/* .tab-text{
+  margin: 16%;
+  position: relative;
+  padding: 10%;
+  font-size: 21pt;
+  font-weight: bold;
+  color: #2C2C2C;
+} */
+
+.premium-container{
+  width: 657px;
+  height: 229px;
+  background-color: #2C2C2C;
+  border-radius: 30px;
+  margin-top: 8%;
+}
 
 /* Display Section Right Column */
 
@@ -252,11 +303,38 @@ p{
   width: 236px;
   background-color: #2C2C2C;
   border-radius: 30px;
+  margin: 3%;
+  position: relative;
+  left: 50px;
+}
+
+/* Display Bottom ads */
+
+.bottom-ads{
+  margin: 5%;
+}
+
+.ad-containers{
+  width: 25%;
+  height: 200%;
+  background-color: #2C2C2C;
+  border-radius: 30px;
+  margin: 2%;
 }
 
 /* -------------------------------------------------------------------------------- */
 /* FEATURED SECTION */
 /* -------------------------------------------------------------------------------- */
+
+
+.featured-tiles{
+  width: 274px;
+  height: 469px;
+  background-color: #2C2C2C;
+  border-radius: 30px;
+  margin: 5%;
+}
+
 /* -------------------------------------------------------------------------------- */
 /* FOOTER SECTION */
 /* -------------------------------------------------------------------------------- */
