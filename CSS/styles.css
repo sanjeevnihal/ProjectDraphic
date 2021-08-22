@@ -34,7 +34,11 @@ p{
 /* -------------------------------------------------------------------------------- */
 .navbar {
   background-color: #161616;
-
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  left:4%;
+  top: 0;
 }
 
 .navbar-brand {
@@ -80,6 +84,7 @@ p{
 
 .input-group {
   width: 30%;
+  right: 10%
 }
 
 .input-group-text {
@@ -105,7 +110,7 @@ p{
 /* -------------------------------------------------------------------------------- */
 .carousel{
   position: relative;
-  margin: 2%;
+  margin: 7% 2%;
 }
 
 .carousel-inner{
@@ -335,7 +340,56 @@ p{
   margin: 4%;
 }
 
+.featured-icons{
+  position: relative;
+  left: 95%;
+  top: 56%;
+  margin: 6% 19%;
+  font-size: 27pt;
+  color: #60FFC6;
+  cursor: pointer;
+}
+
+.last-ads{
+  margin: 5%;
+}
+
+.featured-ad{
+  width: 25%;
+  height: 200%;
+  background-color: #2C2C2C;
+  border-radius: 30px;
+  margin: 2%;
+}
+
+/* .icon-container{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+} */
+
 /* -------------------------------------------------------------------------------- */
 /* FOOTER SECTION */
 /* -------------------------------------------------------------------------------- */
+
+.footer-container{
+  color: #60FFC6;
+  position: relative;
+  top: 100px;
+  margin: 2%;
+}
+
+.krackbot-img-logo{
+  position: absolute;
+  left: 0;
+  cursor: pointer;
+}
+
+.dotbotz-img-logo{
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+
 /* -------------------------------------------------------------------------------- */
