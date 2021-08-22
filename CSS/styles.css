@@ -3,7 +3,7 @@
 body {
   background-color: #161616;
   font-family: 'Open Sans', sans-serif;
-  padding: 10px 20px;
+  padding: 10px 80px;
 }
 
 h1, h3{
@@ -225,7 +225,7 @@ p{
 
 .scroll-imageicon{
   position: absolute;
-  bottom: .5%;
+  bottom: 1%;
   left: 50%;
 }
 
@@ -303,7 +303,7 @@ p{
   width: 236px;
   background-color: #2C2C2C;
   border-radius: 30px;
-  margin: 3%;
+  margin: 2%;
   position: relative;
   left: 50px;
 }
@@ -332,7 +332,7 @@ p{
   height: 469px;
   background-color: #2C2C2C;
   border-radius: 30px;
-  margin: 5%;
+  margin: 4%;
 }
 
 /* -------------------------------------------------------------------------------- */
